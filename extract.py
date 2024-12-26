@@ -3,8 +3,8 @@ import shutil
 
 # -------------------- Configuration -------------------- #
 
-MAIN_FOLDER = "/Users/princess/Documents/research assistant/Competing/Red"  # Replace with your main folder path
-DESTINATION_FOLDER = "/Users/princess/Documents/research assistant/Competing/videos"  # Replace with your destination folder path
+MAIN_FOLDER = "/Users/princess/Documents/RA/video-likes-prediction/Red_new"  # Replace with your main folder path
+DESTINATION_FOLDER = "/Users/princess/Documents/RA/video-likes-prediction/videos_new"  # Replace with your destination folder path
 VIDEO_EXTENSIONS = ('.mp4', '.avi', '.mkv', '.mov', '.wmv', '.flv')
 # --------------------------------------------------------- #
 
