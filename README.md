@@ -1,6 +1,6 @@
 # video-likes-prediction
 
-This is a video embedding/features extraction and prediction model framework designed for Professor Xiao Liu's class. This guide provides step-by-step instructions to help you set up and run the file on your local machine.
+This is a video embedding/features extraction and prediction model framework. This guide provides step-by-step instructions to help you set up and run the file on your local machine.
 
 
 ## Requirements
@@ -10,13 +10,11 @@ This is a video embedding/features extraction and prediction model framework des
 
 ## Steps
 
-### Step 1: Sort Competing Programs
-1. Organize the `Competing Programs` directory.
-2. Retain only the `.csv` file containing video likes information.
+### Step 1: Compile Webscraped Post Data 
+1. Retain only the `.csv` file containing video likes information.
 
-### Step 2: Extract Videos
-1. Download the Red folder (or any video folder with .mov, .mp4, etc)
-2. Run `extract.py`.
+### Step 2: Extract Videos (Do this step only if your data folder has mixed files in it)
+1. Run `extract.py`.
 2. Extract all videos from the organized folders into `videos` folder.
 
 ### Step 3: Generate Physical Feature Embeddings
