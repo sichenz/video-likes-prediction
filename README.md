@@ -16,15 +16,16 @@ This is a video embedding/features extraction and prediction model framework. Th
 
 ### Step 2: Extract Videos (Do this step only if your data folder has mixed files in it)
 1. Run `extract.py`.
-2. Extract all videos from the organized folders into `videos` folder.
+2. Extract all videos from the organized folders into the `videos` folder.
 
-### Step 3: Generate Physical Features and Embeddings
-1. Run `embeddings_and_features.ipynb`.
-2. Generate and save all features into a combined `video_info.csv` file.
+### Step 3: Generate Physical Features, Embeddings, and ASR
+1. Run `video_likes.ipynb`.
+2. Generate and save all features into a combined `combined.csv` file.
+3. Deploy a prediction model that will use all three of these video characteristics.
 
-### Step 4: Deploy the Prediction Model
-1. Run `prediction_using_embeddings.ipynb`.
-2. Run `prediction_using_features.ipynb`.
+### Step 4: Deploy Specific Prediction Models
+1. Run `prediction_using_embeddings.ipynb` to deploy a prediction model based on embeddings.
+2. Run `prediction_using_features.ipynb` to deploy a prediction model based on features.
 
 ### Step 5: Run Prediction Model Using Features
 1. Run `App.py` using Streamlit.
