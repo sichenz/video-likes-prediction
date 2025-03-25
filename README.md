@@ -23,7 +23,7 @@ This is a video embedding/features extraction and prediction model framework. Th
 2. Generate and save all features into a combined `combined.csv` file.
 3. Deploy a prediction model that will use all three of these video characteristics.
 
-**NOTE**: `video_likes.ipynb` was computed on the NYU Greene Cluster. Please see `CLUSTER.md` for details.
+**NOTE**: `video_likes.ipynb` was computed on the NYU Greene Cluster. Please see `JUPYTER.md` for details.
 
 ### Step 4: Deploy Specific Prediction Models
 1. Run `prediction_using_embeddings.ipynb` to deploy a prediction model based on embeddings.
