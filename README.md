@@ -30,8 +30,8 @@ This is a video embedding/features extraction and prediction model framework. Th
 2. Run `prediction_using_features.ipynb` to deploy a prediction model based on features.
 
 ### Step 5: Run Prediction Model Using Features
-1. Run `App.py` using Streamlit.
+1. Run `app_using_features.py` using Streamlit.
 ```bash
-streamlit run app.py
+streamlit run app_using_features.py
 ```
 2. Interact with the prediction model through the application.
